@@ -2,6 +2,7 @@
 #include "box.h"
 #include "checkerboard.h"
 #include "cross.h"
+#include "lower.h"
 
 int main()
 {
@@ -33,5 +34,15 @@ int main()
 	std::string cross_2 = cross(5);
 	std::cout << "cross(5):\n";
 	std::cout << cross_2;
+	std::cout << "\n------------------\n"; // separator
+	
+	std::string lower_1 = lower(3);
+	std::cout << "lower(3):\n";
+	std::cout << lower_1;
+	std::cout << "\n------------------\n"; // separator
+	
+	std::string lower_2 = lower(6);
+	std::cout << "lower(6):\n";
+	std::cout << lower_2;
 	std::cout << "\n------------------\n"; // separator
 }
