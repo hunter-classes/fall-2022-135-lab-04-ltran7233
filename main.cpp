@@ -3,6 +3,7 @@
 #include "checkerboard.h"
 #include "cross.h"
 #include "lower.h"
+#include "upper.h"
 
 int main()
 {
@@ -44,5 +45,15 @@ int main()
 	std::string lower_2 = lower(6);
 	std::cout << "lower(6):\n";
 	std::cout << lower_2;
+	std::cout << "\n------------------\n"; // separator
+	
+	std::string upper_1 = upper(5);
+	std::cout << "upper(5):\n";
+	std::cout << upper_1;
+	std::cout << "\n------------------\n"; // separator
+	
+	std::string upper_2 = upper(8);
+	std::cout << "upper(8):\n";
+	std::cout << upper_2;
 	std::cout << "\n------------------\n"; // separator
 }
