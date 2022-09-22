@@ -4,6 +4,7 @@
 #include "cross.h"
 #include "lower.h"
 #include "upper.h"
+#include "trapezoid.h"
 
 int main()
 {
@@ -55,5 +56,15 @@ int main()
 	std::string upper_2 = upper(8);
 	std::cout << "upper(8):\n";
 	std::cout << upper_2;
+	std::cout << "\n------------------\n"; // separator
+
+	std::string trapezoid_1 = trapezoid(7,4);
+	std::cout << "trapezoid(7,4):\n";
+	std::cout << trapezoid_1;
+	std::cout << "\n------------------\n"; // separator
+
+	std::string trapezoid_2 = trapezoid(10,6);
+	std::cout << "trapezoid(10,6):\n";
+	std::cout << trapezoid_2;
 	std::cout << "\n------------------\n"; // separator
 }
