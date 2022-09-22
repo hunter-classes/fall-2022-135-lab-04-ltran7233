@@ -77,5 +77,5 @@ int main()
 	std::string checkerboard3x3_2 = checkerboard3x3(27,27);
 	std::cout << "checkerboard3x3(27,27):\n";
 	std::cout << checkerboard3x3_2;
-	std::cout << "\n------------------\n"; // separator
+	std::cout << "\n------------------\n"; // separator 
 }
